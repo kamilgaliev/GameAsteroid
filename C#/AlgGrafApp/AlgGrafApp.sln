@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafPrintApp", "GrafPrintApp\GrafPrintApp.csproj", "{86C7993B-0317-4B9D-AFA1-5912875C360E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObhodGlubina", "ObhodGlubina\ObhodGlubina.csproj", "{F9D0D03F-3BAD-4E90-96EA-2802B21E3B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86C7993B-0317-4B9D-AFA1-5912875C360E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C7993B-0317-4B9D-AFA1-5912875C360E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C7993B-0317-4B9D-AFA1-5912875C360E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C7993B-0317-4B9D-AFA1-5912875C360E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D0D03F-3BAD-4E90-96EA-2802B21E3B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D0D03F-3BAD-4E90-96EA-2802B21E3B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D0D03F-3BAD-4E90-96EA-2802B21E3B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D0D03F-3BAD-4E90-96EA-2802B21E3B00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC8C171A-418D-4A98-927A-59C5442BA78E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,49 @@
+﻿<Window x:Class="FoodsList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodsList"
+        mc:Ignorable="d"
+        Title="Список покупок(Зима близко)" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid x:Name="dgData" HorizontalAlignment="Left" Height="410" Margin="0,10,-0.4,0" VerticalAlignment="Top" Width="794" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding FoodId}" Width="50" />
+                <DataGridTextColumn Header="Название" Binding="{Binding Name,UpdateSourceTrigger=PropertyChanged}" Width="250"/>
+                <DataGridTextColumn Header="Кол-во (кг,шт)" Binding="{Binding Count,UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="Цена за кг,шт" Binding="{Binding Price,UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTemplateColumn Header="Дата покупки" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding Date,UpdateSourceTrigger=PropertyChanged}" BorderThickness="0" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Купил ?"  >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding Buy,UpdateSourceTrigger=PropertyChanged}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Изменить">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnEdit" Content="Изменить" Click="btnEdit_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Удалить">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnDel" Content="Удалить" Click="btnDel_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

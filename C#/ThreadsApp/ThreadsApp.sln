@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{C953AD80-5503-41E0-9BC3-F0F73CA70C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsSync", "ThreadsSync\ThreadsSync.csproj", "{7CCC49D7-5297-43C4-937A-4D46454B2413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFile", "FindFile\FindFile.csproj", "{980D1BAF-F83E-4EA4-9C06-9FEC908C0B8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C953AD80-5503-41E0-9BC3-F0F73CA70C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C953AD80-5503-41E0-9BC3-F0F73CA70C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C953AD80-5503-41E0-9BC3-F0F73CA70C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C953AD80-5503-41E0-9BC3-F0F73CA70C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCC49D7-5297-43C4-937A-4D46454B2413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCC49D7-5297-43C4-937A-4D46454B2413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCC49D7-5297-43C4-937A-4D46454B2413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCC49D7-5297-43C4-937A-4D46454B2413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980D1BAF-F83E-4EA4-9C06-9FEC908C0B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980D1BAF-F83E-4EA4-9C06-9FEC908C0B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980D1BAF-F83E-4EA4-9C06-9FEC908C0B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980D1BAF-F83E-4EA4-9C06-9FEC908C0B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFFC68CB-B2FB-4459-9331-FC7134CF0F30}
+	EndGlobalSection
+EndGlobal
